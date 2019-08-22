@@ -1,8 +1,36 @@
-.carousel {
+.main-header{
+    background: #292929;
+    color: #ffffff;
+    height: 300px;
+}
+
+body {
+    background: #292929;
+}
+
+.section-main {
     background: url(../img/abstract2.jpg);
     height: 60vh;
-    width: 100vw;
     background-position: center;
     min-height: 200px;
     background-size: cover;
 }
+
+
+.section-contact {
+    position: relative;
+}
+
+.section-contact .card-panel {
+position: relative;
+z-index: 1;
+}
+
+#googlemap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    }
