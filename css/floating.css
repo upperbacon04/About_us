@@ -2,16 +2,6 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } */
 
-body,  html {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	font-family: 'Helvetica', sans-serif;
-	background: rgb(26, 188, 156);
-	background: -moz-linear-gradient(-45deg, rgb(26, 188, 156) 0%, rgba(142, 68, 173, 1) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-}
 
 
 @keyframes float {
@@ -41,7 +31,6 @@ body,  html {
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
-	img { width: 100%; height: auto; }
 }
 
 

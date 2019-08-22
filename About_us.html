@@ -35,13 +35,28 @@
     
 
 
-<!-- NAVBAR -->
 
-<nav>
+
+
+
+<header class="main-header">
+<div class="primary-overlay">
+
+  <!-- NAVBAR -->
+<div class="navbar-fixed" style="background: #292929;"> 
+
+<nav class="transparent">
+  <div class="container">
     <div class="nav-wrapper">
-      <div class="container">
-        <a href="#" class="brand-logo left">About Us</a>
-        <ul id="nav-mobile" class="right hide-on-small-and-down">
+
+      <a href="#" class="brand-logo">About Us</a>
+
+      <a href="#" data-activates="mobile-nav" class="button-collapse">
+        <i class="material-icons white-text">menu</i>
+      </a>
+
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
             <a href="#">HOME</a>
           </li>
@@ -51,10 +66,67 @@
           <li>
             <a href="#">Testimonials</a>
           </li>
+          <li>
+            <a href="#contactus">Contact Us</a>
+          </li>
         </ul>
+
       </div>
     </div>
   </nav>
+
+</div>
+
+
+
+<!-- SIDENAV -->
+
+<ul class="side-nav" id="mobile-nav">
+
+    <li>
+      <div style="height: 100px; background: #292929;">
+          <a href="#" class="white-text">
+            <h4 class="center">Website</h4>
+          </a>
+      </div>
+    </li>
+    <li>
+    <a href="#home">
+     <i class="material-icons">home</i>HOME
+    </a>
+  </li>
+
+    <li>
+      <a href="#hotdeals">
+        <i class="material-icons">redeem</i>Packages
+      </a>
+    </li>
+
+    <li><a href="#vehicles">
+     <i class="material-icons">insert_emoticon</i>Testimonials
+    </a>
+  </li>
+
+    <li><a href="#contactus">
+     <i class="material-icons">contacts</i>Contact us
+    </a>
+  </li>
+
+  </ul>
+
+</div>
+</header>
+
+
+
+<section>
+
+
+</section>
+
+
+
+
 
   <!-- CAROUSEL WITH MODAL TRIGGER -->
 
@@ -187,7 +259,7 @@
       </div>
     </div>
 
-
+<!-- /MODAL CONTENT -->
 
 
 
@@ -212,7 +284,7 @@
 
       $('.carousel').carousel();
       $('.modal').modal();
-
+      $('.button-collapse').sideNav();
     });
   </script>
 </body>
