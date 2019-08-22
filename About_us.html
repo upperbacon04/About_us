@@ -372,11 +372,31 @@
 
       $('.carousel').carousel();
       // CAROUSEL AUTOPLAY ON HOVER WILL STOP
+
        autoplay = true;
 
-       setInterval(function() { if(autoplay) $('.carousel').carousel('next'); }, 3500);
+       setInterval
+       (function() 
 
-       $('.carousel').hover(function(){ autoplay = false; },function(){ autoplay = true; });
+       { 
+         if(autoplay) 
+       $('.carousel').carousel('next');
+
+       }, 3500
+
+       );
+
+       $('.carousel').hover
+       (function()
+
+       { autoplay = false; },
+
+       function()
+       { autoplay = true; }
+       
+       );
+
+      //  /CAROUSEL
 
       $('.modal').modal();
       $('.button-collapse').sideNav();
