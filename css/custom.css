@@ -1,0 +1,8 @@
+.carousel {
+    background: url(../img/abstract2.jpg);
+    height: 60vh;
+    width: 100vw;
+    background-position: center;
+    min-height: 200px;
+    background-size: cover;
+}
