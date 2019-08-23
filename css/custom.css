@@ -8,10 +8,10 @@ body {
     background: #292929;
 }
 
-.loader {
-    position: absolute;
-    top: 50%;
-    left: 47%;
+nav ul li a:hover {
+color: darkorange !important;
+background-color: #292929 !important;
+transition: color 0.5s ease !important;
 }
 
 .section-main {
